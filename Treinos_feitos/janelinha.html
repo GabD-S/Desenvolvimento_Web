@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro_Prog</title>
+    <style>
+        body{
+            background-color: rgb(41, 47, 58);
+            color: azure;
+            font: 20pt arial;  /* isso é css: comentario em css*/
+        }
+        h1{
+            color: rgb(90, 90, 95);
+        }
+    </style>
+</head>
+<body>
+    <h1>Começando os Trabalhos </h1> <!--isso é html: comentario em html-->
+    <p> Daqui pra frente é só resultado:</p>
+
+    <p> A prendendo a usar o  <strong> DOM</strong> em JavaScript</p>   
+    <div id="'msg"> Clique em mim:</div>
+
+    
+    <script> // TESTE 1- BASE
+        // isso é java: comentario em Java, pode ser /* */ tb
+        var n1=Number(window.prompt('NUM_1: '))
+        var n2=Number(window.prompt('Num2 : '))
+        var c = n1 + n2 
+        window.alert(`A soma de ${n1} e ${n2} é ${c}`)
+
+        var nome= window.prompt(' NOME DNV') 
+        document.write(` Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} letras meu camarada .<br/>`);
+        document.write(` Em maíusculo:  ${nome.toUpperCase()} `)
+        
+        //comando maneiro:  n1.toLocalString('pt-BR', {style: 'currency, currency, 'BRL'})
+
+    </script>
+
+</body>
+</html>

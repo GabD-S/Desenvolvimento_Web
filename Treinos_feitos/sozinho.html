@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora online</title>
+    <style>
+        input {
+            font: 25pt Arial;
+            height: 50px;
+            width: 150px;
+            line-height: 100px;
+            text-align: center;
+            color: red;
+
+        }
+        body {
+            background:  linear-gradient(45deg, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 50%, transparent 100%);
+
+
+            background-color: #131313;
+            background-size: 20px 20px;
+            font: 20pt arial;
+            color: aliceblue;
+            text-align: center;
+        }
+        p {
+            color: rgb(247, 161, 2);       
+        }
+        div#area1, div#area2, div#area3, div#area4 {
+            display: inline-block;
+            margin-right: 10px; 
+            font: normal 20pt arial;
+            background-color: red;
+            color: aliceblue;
+            height: 50px;
+            width: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Calculadora online</h1>
+    <p>
+        A Calculadora fará multiplicação soma e muito mais
+         Escolha uma da operações pra ir para a conta
+    </p>
+
+    <div id ='area1'>
+        x
+    </div>
+
+    <div id='area2'>
+        /
+    </div>
+    <div id='area3'>
+        +
+    </div>
+    <div id="area4">
+        -
+    </div>
+
+    <p>
+        Contas de soma: <input type='number' name="ar1" id="ar1"> + 
+        <input type='number' name="ar2" id="ar2">
+        <input type="button" value="Somar" onclick="somar()">
+        <div id='res'> Resultado </div>
+        <p>Conta de subtração: <input type='number' id="ar3"> - 
+        <input type='number' id="ar4">
+        <input type='button' value="Subtrair" onclick="subtracao()">
+        <div id ='res2'> Resultado</div></p>
+        <p>Conta de multiplicação: <input type="number" id="ar5"> x
+        <input type='number' id="ar6">
+        <input type="button" value="Multiplicar" onclick="mult()">
+        <div id="res3"> Resultado</div>        
+        </p>
+        <p>Contade divisão: <input type='number' id="ar7"> /
+        <input type="number" id="ar8">
+        <input type="button" value="Dividir" onclick="divisao()">
+        <div id="res4"> Resultado </div>
+        </p>
+    </p>
+
+    <script>
+        // aqui eu faço os botões interagirem 
+        const a1 = window.document.getElementById('area1');
+        const a2 = window.document.getElementById('area2');
+        const a3 = window.document.getElementById('area3');
+        const a4 = window.document.getElementById('area4');
+
+            const elementos = [a1,a2,a3,a4]
+            elementos.forEach(elemento => {
+                elemento.addEventListener('mouseover',function(){
+                    elemento.style.backgroundColor = 'black'                    
+                });
+                elemento.addEventListener('mouseout',function(){
+                    elemento.style.backgroundColor = 'red'
+                });
+            });
+        //aqui farei os botões direcionarem aos cálculos
+
+            function irpa1() {
+                const a1 = window.document.getElementById('area1');
+                const a2 = window.document.getElementById('area2');
+                const a3 = window.document.getElementById('area3');
+                const a4 = window.document.getElementById('area4');
+
+                document.getElementById('ar1').scrollIntoView({behavior:"smooth"})
+
+
+            };
+
+        // os cálculos
+        function somar() {
+            var ar1 = window.document.getElementById('ar1')
+            var ar2 = window.document.getElementById('ar2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(ar1.value)
+            var n2 = Number(ar2.value)
+            var s = n1+n2
+            res.innerHTML = `O resultado é: <strong>${s}</strong>`
+        }
+        function subtracao() {
+            var ar1 = window.document.getElementById('ar3')
+            var ar2 = window.document.getElementById('ar4')
+            var res2 = window.document.getElementById('res2')
+            var ar1 = Number(ar1.value)
+            var ar2 = Number(ar2.value)
+            var s = ar1 - ar2
+            res2.innerHTML = `O resultado é ${s}`
+        }
+        function mult() {
+            var ar1 = window.document.getElementById('ar5')
+            var ar2 = window.document.getElementById('ar6')
+            var res3 = window.document.getElementById('res3')
+            var ar1 = Number(ar1.value)
+            var ar2 = Number(ar2.value)
+            var s = ar1 * ar2
+            res3.innerHTML = `O resultado é ${s}`
+
+        }
+        function divisao (){
+            var ar1 = window.document.getElementById('ar7')
+            var ar2 = window.document.getElementById('ar8')
+            var res3 = window.document.getElementById('res4')
+            var ar1 = Number(ar1.value)
+            var ar2 = Number(ar2.value)
+            var s = ar1 / ar2
+            res4.innerHTML = `O resultado é ${s}`     
+        }
+    </script>
+</body>
+</html>
