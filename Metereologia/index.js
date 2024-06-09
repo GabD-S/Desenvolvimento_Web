@@ -20,6 +20,7 @@ search.addEventListener('click',() => {
             error484.style.display = 'block';
             error484.classList.add('fadeIn');
             return;
+            
         }
 
         error404.style.display='none'
