@@ -18,6 +18,15 @@ Bem-vindo ao meu repositório! Aqui você encontrará diferentes projetos e desa
 - Somente um teste incompleto para uso de APIs
 - Clique aqui para ser direcionado para a pasta: [Cardápio](Cardapio)
 
+### Login
+
+<img src="Imagens/login.png" alt="Login" height="200" width="300"/>
+
+- Projeto de sistema de login.
+
+- Clique aqui para ser direcionado para a pasta: [Login](login)
+
+
 ### Currículo
 
 <img src="Imagens/curriculo.png" alt="Currículo" height="200" width="300"/>
@@ -50,18 +59,10 @@ Bem-vindo ao meu repositório! Aqui você encontrará diferentes projetos e desa
 
 - Projeto para testar efeitos em botões.
 
-- Clique aqui para ser direcionado para a pasta: [Teste do Botão](Teste_do_botao)
+- Clique aqui para ser direcionado para a pasta: [Teste do Botão](Teste_do_botão)
 
 ### Treinos Feitos
 
 - Projeto para registrar passos para aprendizado.
 
 - Clique aqui para ser direcionado para a pasta: [Treinos Feitos](Treinos_feitos)
-
-### Login
-
-<img src="Imagens/login.png" alt="Login" height="200" width="300"/>
-
-- Projeto de sistema de login.
-
-- Clique aqui para ser direcionado para a pasta: [Login](login)
