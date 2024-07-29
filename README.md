@@ -2,6 +2,52 @@
 
 Bem-vindo ao meu repositório! Aqui você encontrará diferentes projetos e desafios que trabalhei em desenvolvimento web
 
+### API-Estados
+
+<img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
+
+- Projeto para criar um calendário de treino.
+
+- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+
+
+### API-Pokemon
+
+<img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
+
+- Projeto para criar um calendário de treino.
+
+- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+
+
+### React
+
+  <img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
+
+- Projeto para criar um calendário de treino.
+
+- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+
+
+## Banco de dados
+
+<img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
+
+- Projeto para criar um calendário de treino.
+
+- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+
+
+### Site EngNet
+
+<img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
+
+- Projeto para criar um calendário de treino.
+
+- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+
+
+
 ### Calendário
 
 <img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
