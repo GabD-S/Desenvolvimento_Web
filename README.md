@@ -36,7 +36,7 @@
 ## 🗄️ Banco de Dados
 
 - 🌟 Projeto para gerenciar banco de dados com diferentes tecnologias.
-- 📂 Clique aqui para ser direcionado para a pasta: [Banco_de_Dados](Bando_de_Dados)
+- 📂 Clique aqui para ser direcionado para a pasta: [Banco_de_Dados](Projetos_Front/Banco_de_dados/)
 
 ---
 
