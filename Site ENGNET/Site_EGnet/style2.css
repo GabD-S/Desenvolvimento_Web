@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    width: 95%;
+    height: 15vh;
+    margin-top: 3vh;
+    padding: 0 1%;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    margin-left: 2vh;
+}
+
+.left-bar {
+    padding: 24.9% 1%;
+    width: 6%;
+    border: 2px solid #fff;
+    margin-left: 1.1%;
+    margin-top: -55.09%;
+}
+
+.logo img {
+    width: 5vw;
+    height: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -30vw;
+    gap: 10vw;
+}
+
+.navbar li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8vw;
+}
+
+.navbar li .number {
+    display: block;
+    font-size: 1vw;
+    color: #fff;
+    margin-bottom: 0.5vw;
+}
+.navbar li:nth-child(1) .number {
+    margin-left: -2vw;
+}
+
+.navbar li:nth-child(2) .number {
+    margin-left: -3vw;
+}
+
+.navbar li:nth-child(3) .number {
+    margin-left: -6vw;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffa500;
+}
+
+.navbar .logo {
+    margin-right: auto;
+}
+
+.navbar .contact {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 1vw;
+}
+
+.navbar .contact img {
+    margin-left: 1vw;
+    width: 2vw;
+    height: auto;
+}
+
+.main-content {
+    padding: 5%;
+    margin-left: 10%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto auto;
+    gap: 2.5vw;
+    padding: 2vw;
+    margin-top: -5vw;
+}
+.container .card:nth-child(5) {
+    grid-column: span 2;
+    height: calc(43.1% + 2vw);
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 1vw;
+    padding: 3.8vw;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 2vw;
+    color: #ffa500;
+    margin-bottom: 1vw;
+}
+.icon img{
+    margin-top: -100vw;
+    width: 3vw;
+    height: 3vw;
+}
+
+h2 {
+    margin: 1vw 0;
+    font-size: 1vw;
+    color: #000;
+}
+
+p {
+    font-size: 0.69vw;
+    color: #000;
+}
+
+.social-media {
+    position: absolute;
+    left: 3.8%;
+    top: 85%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+}
+
+.social-media a {
+    margin: 1vw 0;
+}
+
+.social-media img {
+    width: 2vw;
+    height: auto;
+}
