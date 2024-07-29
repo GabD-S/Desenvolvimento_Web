@@ -4,47 +4,43 @@ Bem-vindo ao meu repositório! Aqui você encontrará diferentes projetos e desa
 
 ### API-Estados
 
-<img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
+<img src="Imagens/API-Estados.png" alt="Calendário" height="200" width="300"/>
 
 - Projeto para criar um calendário de treino.
 
-- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+- Clique aqui para ser direcionado para a pasta: [Calendário](API-Estados)
 
 
 ### API-Pokemon
 
-<img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
+<img src="Imagens/API-Pokemon.png" alt="Calendário" height="200" width="300"/>
 
 - Projeto para criar um calendário de treino.
 
-- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+- Clique aqui para ser direcionado para a pasta: [Calendário](API-Pokemon)
 
 
 ### React
 
-  <img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
-
 - Projeto para criar um calendário de treino.
 
-- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+- Clique aqui para ser direcionado para a pasta: [Calendário](React)
 
 
 ## Banco de dados
 
-<img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
-
 - Projeto para criar um calendário de treino.
 
-- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+- Clique aqui para ser direcionado para a pasta: [Calendário](Banco de dados)
 
 
 ### Site EngNet
 
-<img src="Imagens/calendario.png" alt="Calendário" height="200" width="300"/>
+<img src="Imagens/Site-engnet.png" alt="Calendário" height="200" width="300"/>
 
 - Projeto para criar um calendário de treino.
 
-- Clique aqui para ser direcionado para a pasta: [Calendário](Calendario)
+- Clique aqui para ser direcionado para a pasta: [Calendário](Site_ENGNET)
 
 
 
