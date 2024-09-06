@@ -33,13 +33,6 @@
 
 ---
 
-## 🗄️ Banco de Dados
-
-- 🌟 Projeto para gerenciar banco de dados com diferentes tecnologias.
-- 📂 Clique aqui para ser direcionado para a pasta: [Banco_de_Dados]("Banco_de_dados")
-
----
-
 ### 🌐 Site EngNet
 
 <div style="border-radius: 15px; background: linear-gradient(135deg, #f06, #f9a); padding: 10px; display: inline-block;">
