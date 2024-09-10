@@ -15,21 +15,20 @@
             <form>
                 <h1>Crie sua conta</h1>
                 <div class="social-icons">
-                    
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>Ou use as outras contas</span>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Senha">
-                <button>Entrar</button>
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <button type="submit">Cadastrar</button>
             </form>
         </div>
         <div class="form-container sign-in">
-            <form>
+            <form action="">
                 <h1>Entrar</h1>
                 <div class="social-icons">
                 
@@ -40,10 +39,9 @@
 
                 </div>
                 <span> Use seu email e senha </span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Senha">
-                <a href="#">Esqueceu a senha?</a>
-                <button>Entrar </button>
+                <input type="email" name="login_email" placeholder="Email" required>
+                <input type="password" name="login_senha" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
             </form>
         </div>
         <div class="toggle-container">
