@@ -43,18 +43,6 @@
 - 📂 Clique aqui para ser direcionado para a pasta: [Site EngNet](Site_ENGNET)
 
 
----
-
-### 📄 Currículo
-
-<div style="border-radius: 15px; background: linear-gradient(135deg, #f06, #f9a); padding: 10px; display: inline-block;">
-    <img src="Imagens/curriculo.png" alt="Currículo" height="200" width="300" style="border-radius: 15px;"/>
-</div>
-
-- 🌟 Projeto para criar um currículo pessoal.
-- 📂 Clique aqui para ser direcionado para a pasta: [Currículo](Curriculo)
-
----
 
 ### ☁️ Meteorologia PT2
 
